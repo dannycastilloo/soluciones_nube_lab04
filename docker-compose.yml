@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  lab04:
+    image: lab04
+    build:
+      context: .
+      dockerfile: ./Dockerfile
